@@ -20,41 +20,35 @@
 
 8. Формулирование выводов и подготовка результатов работы. Обобщение результатов экспериментов.
 
+## Структура проекта
 
-
-Структура проекта
-
+```text
 multivariate-ts-anomaly-detection/
 │
+├── notebooks/                  # Jupyter-блокноты с экспериментами
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_stl_decomposition.ipynb
+│   ├── 03_wavelet_transform.ipynb
+│   ├── 04_rocket_features.ipynb
+│   ├── 05_catch22_features.ipynb
+│   ├── 06_anomaly_detection.ipynb
+│   └── 07_experiments_comparison.ipynb
+│
+├── src/                        # Исходный код проекта
+│
+├── datasets/                   # Наборы данных (не хранятся в Git)
+│
+├── results/                    # Результаты экспериментов
+│
+├── requirements.txt            # Зависимости проекта
+│
+├── .gitignore                  # Исключения для Git
+│
+└── README.md                   # Описание проекта
+```
 
-|──notebooks/
+### Используемые наборы данных
 
-│   |── [01_data_exploration.ipynb](https://github.com/Kirill7-8/multivariate-ts-anomaly-detection/blob/main/notebooks/
-01_data_exploration.ipynb)
+Датасеты не включаются в репозиторий и хранятся локально в директории `datasets/`.
 
-│   |── 02_stl_decomposition.ipynb
-
-│   |── 03_wavelet_transform.ipynb
-
-│   |── 04_rocket_features.ipynb
-
-│   |── 05_catch22_features.ipynb
-
-│   |── 06_anomaly_detection.ipynb
-
-│   |── 07_experiments_comparison.ipynb
-
-|
-
-|── src/
-
-|── datasets/ 
-
-|── results/
-
-|── requirements.txt
-
-|── README.md
-
-Директория datasets/ включена в .gitignore текущие датасеты: 
-── [SMD](https://github.com/NetManAIOps/OmniAnomaly)
+- [SMD (Server Machine Dataset)](https://github.com/NetManAIOps/OmniAnomaly) — набор многомерных временных рядов с показателями работы серверных машин и разметкой аномалий.
