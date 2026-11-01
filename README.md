@@ -26,19 +26,34 @@
 
 multivariate-ts-anomaly-detection/
 │
+
 |──notebooks/
-│   |── [01_data_exploration.ipynb](https://github.com/Kirill7-8/multivariate-ts-anomaly-detection/blob/main/notebooks/01_data_exploration.ipynb)
+
+│   |── [01_data_exploration.ipynb](https://github.com/Kirill7-8/multivariate-ts-anomaly-detection/blob/main/notebooks/
+01_data_exploration.ipynb)
+
 │   |── 02_stl_decomposition.ipynb
+
 │   |── 03_wavelet_transform.ipynb
+
 │   |── 04_rocket_features.ipynb
+
 │   |── 05_catch22_features.ipynb
+
 │   |── 06_anomaly_detection.ipynb
+
 │   |── 07_experiments_comparison.ipynb
+
 |
+
 |── src/
+
 |── datasets/ 
+
 |── results/
+
 |── requirements.txt
+
 |── README.md
 
 Директория datasets/ включена в .gitignore текущие датасеты: 
