@@ -19,3 +19,27 @@
 7. Проведение экспериментального исследования. Сравнение результатов обнаружения аномалий при использовании различных методов предобработки и извлечения признаков. Оценка качества обнаружения с помощью выбранных метрик, анализ полученных результатов.
 
 8. Формулирование выводов и подготовка результатов работы. Обобщение результатов экспериментов.
+
+
+
+Структура проекта
+
+multivariate-ts-anomaly-detection/
+│
+|──notebooks/
+│   |── [01_data_exploration.ipynb](https://github.com/Kirill7-8/multivariate-ts-anomaly-detection/blob/main/notebooks/01_data_exploration.ipynb)
+│   |── 02_stl_decomposition.ipynb
+│   |── 03_wavelet_transform.ipynb
+│   |── 04_rocket_features.ipynb
+│   |── 05_catch22_features.ipynb
+│   |── 06_anomaly_detection.ipynb
+│   |── 07_experiments_comparison.ipynb
+|
+|── src/
+|── datasets/ 
+|── results/
+|── requirements.txt
+|── README.md
+
+Директория datasets/ включена в .gitignore текущие датасеты: 
+── [SMD](https://github.com/NetManAIOps/OmniAnomaly)
